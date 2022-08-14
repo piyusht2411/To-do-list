@@ -36,7 +36,7 @@ app.get('/', (req, resp) => {
     })
 })
 app.get('/delete-task', (req, resp) => {
-    console.log("deleted" + req.query)
+    console.log("deleted",req.query)
     let id = req.query.id;
 
     Task.findByIdAndDelete(id, function (err) {

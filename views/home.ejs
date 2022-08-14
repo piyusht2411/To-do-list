@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -13,16 +14,18 @@
     <h1>To Do List</h1>
     <ol>
         <% for(let i of Task_list) { %>
-            <li>
+            <li class="tasks">
+                <div class="answer">
                 <p>
                     <%= i.task %>
                 </p>
-            </li>
+                </div>
             <div class="delete-button">
                 <a href="/delete-task/?id=<%=i._id %>">
-                    delete
+                    <i class ="fas fa-check"></i>
                 </a>
             </div>
+            </li>
 
 
             <%}%>

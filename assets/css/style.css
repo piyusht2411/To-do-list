@@ -1,66 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: green;
-    background-size: cover;
-    text-align: center;
+body {
+  background-color: green;
+  background-size: cover;
+  text-align: center;
 }
-li{
-    /* border: 2px solid black; */
-    background-color: yellow;
-    border-radius: 20px;
-    color: red;
-    width: 30%;
-    padding: 15px;
-    font-size: 25px;
-    font-weight: bold;
-    margin: auto;
-    margin-top: 15px;
-    list-style: none;
+li {
+  /* border: 2px solid black; */
+  background-color: yellow;
+  border-radius: 20px;
+  color: red;
+  width: 30%;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 15px;
+  list-style: none;
+  display: flex;
+  text-transform: capitalize;
 }
-h1{
-color: yellow;
-margin: auto;
-margin-top: 20px;
-margin-bottom: 20px;
-border-bottom: 5px solid yellow;
-width: 166px;
+h1 {
+  color: yellow;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid yellow;
+  width: 166px;
+}
+input[type="text"] {
+  border: none;
+  background-color: transparent;
+  box-sizing: border-box;
+  color: white;
+  border-bottom: 4px solid white;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 44px;
+  padding: 10px;
+}
 
+::placeholder {
+  color: rgba(255, 255, 255, 0.361);
+  font-weight: lighter;
 }
-input[type=text]{
-    border: none;
-    background-color: transparent;
-    box-sizing: border-box;
-    color: white;
-    border-bottom: 4px solid white;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 44px;
+input[type="submit"] {
+  padding: 10px;
+  border: none;
+  background-color: red;
+  font-size: 1.2em;
+  color: white;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+/* li:hover {
+  background-color: red;
+  color: white;
+  border: transparent;
+} */
+input[type="submit"]:hover {
+  background-color: black;
+  color: white;
+}
 
-
+.answer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
 }
-
-::placeholder{
-    color: rgba(255, 255, 255, 0.361);
-    font-weight: lighter;
-}
-input[type=submit]{
-    padding: 10px;
-    border: none;
-    background-color: red;
-    font-size: 1.2em;
-    color: white;
-    margin-left: 12px;
-
-}
-li:hover{
-    background-color: red;
-    color: white;
-    border: transparent;
-}
-input[type=submit]:hover{
-    background-color: black;
-    color: white;
+.delete-button {
+  /* background-color: white; */
+  color: red;
+  width: 10%;
 }
