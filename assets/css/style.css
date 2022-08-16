@@ -3,15 +3,15 @@
   padding: 0;
 }
 body {
-  background-color: green;
+  background-color:blue;
   background-size: cover;
   text-align: center;
 }
 li {
   /* border: 2px solid black; */
-  background-color: yellow;
+  background-color:aliceblue;
   border-radius: 20px;
-  color: red;
+  color:indigo;
   width: 30%;
   padding: 15px;
   font-size: 25px;
@@ -23,11 +23,11 @@ li {
   text-transform: capitalize;
 }
 h1 {
-  color: yellow;
+  color:white;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 5px solid yellow;
+  border-bottom: 5px solid white;
   width: 166px;
 }
 input[type="text"] {
@@ -49,7 +49,7 @@ input[type="text"] {
 input[type="submit"] {
   padding: 10px;
   border: none;
-  background-color: red;
+  background-color: darkblue;
   font-size: 1.2em;
   color: white;
   margin-left: 12px;
@@ -61,7 +61,7 @@ input[type="submit"] {
   border: transparent;
 } */
 input[type="submit"]:hover {
-  background-color: black;
+  background-color: red;
   color: white;
 }
 
